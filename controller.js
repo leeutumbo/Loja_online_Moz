@@ -1,5 +1,3 @@
-// controller.js - Membro 4
-// Liga o Model ao View: recebe os eventos e chama as funcoes certas
 
 var Controller = {
 
@@ -19,7 +17,7 @@ var Controller = {
 
     adicionarProduto(nome, preco);
 
-    // Limpar os campos
+    
     document.getElementById("input-nome").value = "";
     document.getElementById("input-preco").value = "";
 
@@ -45,7 +43,7 @@ var Controller = {
 
 };
 
-// Ligar os botoes aos eventos
+
 document.getElementById("btn-adicionar").addEventListener("click", function () {
   Controller.adicionarProduto();
 });
