@@ -1,3 +1,0 @@
-var produtos = [];
-var carrinho = [];
-
